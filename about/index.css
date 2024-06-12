@@ -1,0 +1,48 @@
+body{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main{
+    width: 98%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.card {
+    max-width: 96%;
+    width: auto;
+    background-color: rgba(222, 184, 135, 0.2);
+    border: 1px solid rgba(222, 184, 135, 0.5); 
+    margin: 20px;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+li, .card p{
+    font-size: small;
+}
+
+.card p:nth-child(1){
+    font-weight: bolder;
+}
+
+.main .even {
+    margin-left: 12%;
+}
+
+.card:hover{
+    background-color: unset;
+    box-shadow: rgba(222, 184, 135) 7px 12px 17px -5px;
+}
+
+li:hover, p:hover{
+    font-size:medium;
+}
+
+/* li:hover{
+    font-size: xx-large ;
+} */
+

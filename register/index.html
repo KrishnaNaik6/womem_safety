@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="form">
+            <form action="" autocomplete="off">
+                <div id ='details' class="details">
+                    <div id="name_div">
+                        <input id="name" class="ph_pas" onclick="name_click()" type="text" placeholder="Enter Your Name" required>
+                    </div>
+                    <div id="age_div">
+                        <input id="age" class="ph_pas" onclick="age_click()" type="number" placeholder="Enter Your age" required>
+                    </div>
+                    <div id="address_div">
+                        <input id="address" class="ph_pas" onclick="address_click()" type="text"
+                            placeholder="Enter your address" required>
+                    </div>
+                    <div id="email_div">
+                        <input id="email" class="ph_pas" onclick="email_click()" type="email"
+                            placeholder="Enter Your Email" required>
+                    </div>
+                    <div id="ph_div">
+                        <input id="phone" class="ph_pas" onclick="ph_click()" type="text"
+                            placeholder="Enter Your phone number" required>
+                    </div>
+                    <div id="pass_div">
+                        <input id="pass" class="ph_pas" type="password" onclick="pass_click()"
+                            placeholder="Enter password" required>
+                    </div>
+                    <button onclick="register()">Register</button>
+                    <p>already a user <a href="../login/index.html">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

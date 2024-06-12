@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <main>
+        <div class="main">
+            <div class="contact card">
+                <p><b>Contact</b></p>
+                <div>
+                    <p>Phone : </p>
+                    <p> 8217641253</p>
+                </div>
+                <div>
+                    <p>Email : </p>
+                    <p>shettyswathi@gmail.com</p>
+                </div>
+            </div>
+            <div id="loc_div" class="sos card">
+                <p><b>Feedback</b></p>
+                <div id="location">
+                    <textarea onclick="loc_click()" id="cur_location" placeholder="Give feedback"></textarea>
+                </div>
+                <button onclick="sos()">Post</button>
+            </div>
+            <div id="feature" class="feature card">
+                <p><b>What's new</b></p>
+                <ul>
+                    <li>Emergency Alerts: Instantly notify your trusted contacts with your location in an emergency.</li>
+                    <li>Safe Zones: Identify safe areas and avoid unsafe zones with our interactive map.</li>
+                    <li>Safety Tips: Access a wealth of information on staying safe and self-defense techniques</li>
+                </ul>
+            </div>
+
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>

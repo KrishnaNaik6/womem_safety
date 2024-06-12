@@ -1,0 +1,60 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: #000000;
+    color: white;
+}
+header::before {
+    content: ' ';
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Set a negative z-index to position it behind the content */
+    background-image: url('https://www.ritzmagazine.in/wp-content/uploads/2019/01/women-safety-zones.jpg');
+    background-size: cover; /* Adjust as needed */
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar li{
+    padding: 0 2%;
+    font-size: large;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+iframe{
+    width: 95%;
+    height: 34rem;
+    padding: 2%;
+    border: none;
+}
+
+a:active{
+    background-color: rgba(222, 184, 135, 0.5);
+}
+a:focus{
+    background-color: rgba(222, 184, 135, 0.5);
+}
+
+a:visited{
+    background-color: rgba(222, 184, 135, 0.5);
+}
+
